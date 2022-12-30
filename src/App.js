@@ -27,9 +27,6 @@ function App() {
   function Stop() {
     dispatch({ type: "STOP", payload: false })
     clearInterval(timer)
-    valur = (state.hours, state.minutes, state.seconds)
-
-    console.log(valur)
   }
 
   function Reset() {
